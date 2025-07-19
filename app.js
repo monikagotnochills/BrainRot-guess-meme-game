@@ -1,97 +1,357 @@
 // Enhanced Italian Brainrot Horror Game Data
 const gameData = {
   gameRounds: [
+    // IDs 1–5: Tung Tung Sahur
     {
       id: 1,
-      clue: "This cursed pasta demon emerges from the depths of boiling marinara hell, whispering ancient spaghetti incantations",
-      options: ["Il Spaghetto Maledetto", "Demonio della Pasta", "Giuseppe il Dannato"],
+      clue: "He once tried to microwave an NFT to mint it faster.",
+      options: ["Tung Tung Sahur", "Wombo Combo", "Ligma Lantern"],
       correct: 0,
-      character: "🍝👹"
+      character: "Tung Tung Sahur",
+      characterImage: "assets/characters/shahur.jpeg"
     },
     {
       id: 2,
-      clue: "Guardian of the forbidden cheese vault, this horrifying entity melts the souls of those who dare taste cursed dairy",
-      options: ["Signore del Terrore", "Don Formaggio Morte", "Fratello Maledizione"],
-      correct: 1,
-      character: "🧀💀"
+      clue: "His heartbeat sounds like dial-up internet and he uses it to summon crows.",
+      options: ["Crypto Pigeon", "Mr. Gobbledy", "Tung Tung Sahur"],
+      correct: 2,
+      character: "Tung Tung Sahur",
+      characterImage: "assets/characters/shahur.jpeg"
     },
     {
       id: 3,
-      clue: "This frozen nightmare dwells in the gelato underworld, freezing victims in eternal dairy punishment",
-      options: ["Gelato della Morte", "Re del Ghiaccio Nero", "Spirito Congelato"],
-      correct: 2,
-      character: "🍦🔥"
+      clue: "This entity legally married a meme template in 2023 and claims they have 5 children: JPEG, PNG, MP4, WebM, and WEBP.",
+      options: ["Tung Tung Sahur", "JPEG Jester", "Meme Monk"],
+      correct: 0,
+      character: "Tung Tung Sahur",
+      characterImage: "assets/characters/shahur.jpeg"
     },
     {
       id: 4,
-      clue: "Pizza demon that exists between dimensions of crust and sauce, devouring reality itself with each bite",
-      options: ["Fantasma Margherita", "Demonio delle Olive", "Il Pizzaiolo dell'Apocalisse"],
-      correct: 2,
-      character: "🍕💀"
+      clue: "He doesn't speak. He just opens Notepad and types 'tralala tralelero' until the power goes out.",
+      options: ["Alt Tab Baba", "Tung Tung Sahur", "CTRL+Freak"],
+      correct: 1,
+      character: "Tung Tung Sahur",
+      characterImage: "assets/characters/shahur.jpeg"
     },
     {
       id: 5,
-      clue: "The final harbinger of Italian apocalypse - a ravioli wraith containing infinite screaming souls of the damned",
-      options: ["Ravioli dell'Inferno", "Signore dell'Apocalisse", "Il Gnocchi Finale"],
+      clue: "He once challenged ChatGPT to a staring contest and lost—but claimed it was a strategic surrender.",
+      options: ["Broken Compiler", "Tung Tung Sahur", "Sir Lagalot"],
+      correct: 1,
+      character: "Tung Tung Sahur",
+      characterImage: "assets/characters/shahur.jpeg"
+    },
+
+    // IDs 6–10: Chimpanzini Banini
+    {
+      id: 6,
+      clue: "He once swapped his soul for a Solana NFT... then flipped it for 0.0001 SOL and said it was 'for the culture'.",
+      options: ["Ape Donda", "JPEG Pope", "Chimpanzini Banini"],
+      correct: 2,
+      character: "Chimpanzini Banini",
+      characterImage: "assets/characters/banini.jpeg"
+    },
+    {
+      id: 7,
+      clue: "He launched a DAO to decide what sock he wears. Still hasn't reached quorum.",
+      options: ["Monkemon", "Chimpanzini Banini", "Banana DAO CEO"],
+      correct: 1,
+      character: "Chimpanzini Banini",
+      characterImage: "assets/characters/banini.jpeg"
+    },
+    {
+      id: 8,
+      clue: "This dude tried to mint a banana by yelling 'sudo mint 🍌' at his fridge.",
+      options: ["Ruggy Balboa", "Chimpanzini Banini", "GasFee Goblin"],
+      correct: 1,
+      character: "Chimpanzini Banini",
+      characterImage: "assets/characters/banini.jpeg"
+    },
+    {
+      id: 9,
+      clue: "When the market dipped, he just screamed 'floor it' and threw a banana at his screen.",
+      options: ["JPEG Monk", "Chimpanzini Banini", "Dipnutz"],
+      correct: 1,
+      character: "Chimpanzini Banini",
+      characterImage: "assets/characters/banini.jpeg"
+    },
+    {
+      id: 10,
+      clue: "Once said 'I meditated and the banana told me to sweep the floor'. Proceeded to buy the whole NFT collection.",
+      options: ["BananaMancer", "Monk.eth", "Chimpanzini Banini"],
+      correct: 2,
+      character: "Chimpanzini Banini",
+      characterImage: "assets/characters/banini.jpeg"
+    },
+
+    // IDs 11–15: Bomberdino Cocordilo
+    {
+      id: 11,
+      clue: "He once bit his own tail just to see if it was emotionally available.",
+      options: ["Snapzilla the Therapist", "Bomberdino Cocordilo", "Dr. Tearsaur"],
+      correct: 1,
+      character: "Bomberdino Cocordilo",
+      characterImage: "assets/characters/crocodilo.jpeg"
+    },
+    {
+      id: 12,
+      clue: "He started a war over someone stepping on his invisible imaginary friend.",
+      options: ["Captain Unstable", "Screamo Gator", "Bomberdino Cocordilo"],
+      correct: 2,
+      character: "Bomberdino Cocordilo",
+      characterImage: "assets/characters/crocodilo.jpeg"
+    },
+    {
+      id: 13,
+      clue: "He doesn’t believe in doors. He just explodes through emotional walls instead.",
+      options: ["Bomberdino Cocordilo", "Monsieur Kaboom", "Emotional Alligator"],
       correct: 0,
-      character: "🥟☠️"
+      character: "Bomberdino Cocordilo",
+      characterImage: "assets/characters/crocodilo.jpeg"
+    },
+    {
+      id: 14,
+      clue: "Every time he hiccups, someone in a 5km radius gets a minor existential crisis.",
+      options: ["Bomberdino Cocordilo", "Blendy Boy", "Hiccupocalypse"],
+      correct: 0,
+      character: "Bomberdino Cocordilo",
+      characterImage: "assets/characters/crocodilo.jpeg"
+    },
+    {
+      id: 15,
+      clue: "His last words before every nap are: ‘If I don’t wake up, tell the moon I’m sorry.’",
+      options: ["Croco BoomBoom", "Bomberdino Cocordilo", "Napalm Napster"],
+      correct: 1,
+      character: "Bomberdino Cocordilo",
+      characterImage: "assets/characters/crocodilo.jpeg"
+    },
+
+    // IDs 16–20: Tralala Tralelero
+    {
+      id: 16,
+      clue: "He doesn’t talk. He hums cryptic lullabies into bathroom tiles until they confess.",
+      options: ["Sir Laughsalot", "Tralala Tralelero", "Echo Picasso"],
+      correct: 1,
+      character: "Tralala Tralelero",
+      characterImage: "assets/characters/tralala.jpeg"
+    },
+    {
+      id: 17,
+      clue: "He once painted a door on a wall and disappeared into it. He’s been on a 'mental vacation' ever since.",
+      options: ["Doodle Messiah", "Tralala Tralelero", "Exit.exe"],
+      correct: 1,
+      character: "Tralala Tralelero",
+      characterImage: "assets/characters/tralala.jpeg"
+    },
+    {
+      id: 18,
+      clue: "Every full moon, he breakdances on rooftops to summon forgotten memes.",
+      options: ["Rhymenstein", "Tralala Tralelero", "Urban Oracle"],
+      correct: 1,
+      character: "Tralala Tralelero",
+      characterImage: "assets/characters/tralala.jpeg"
+    },
+    {
+      id: 19,
+      clue: "He once got arrested for spray-painting a love poem on the air.",
+      options: ["DreamTagger", "Poem Punk", "Tralala Tralelero"],
+      correct: 2,
+      character: "Tralala Tralelero",
+      characterImage: "assets/characters/tralala.jpeg"
+    },
+    {
+      id: 20,
+      clue: "He doesn’t enter buildings—he phases through wallpaper patterns like a poetic poltergeist.",
+      options: ["Haunted Hypebeast", "Tralala Tralelero", "Fresco Fugitivo"],
+      correct: 1,
+      character: "Tralala Tralelero",
+      characterImage: "assets/characters/tralala.jpeg"
     }
   ],
+
   winningMessages: [
-    "THE SPIRITS APPROVE! 👻",
-    "YOUR SOUL SURVIVES! 💀",
-    "NIGHTMARE CONQUERED! 🔥",
-    "DARKNESS RETREATS! ⚡",
-    "THE DAMNED SALUTE YOU! 👹"
+    "NFT burned, but you got the beat. 🥁 You’ve summoned the Sahur spirit.",
+    "The crows screamed your name. You guessed correctly.",
+    "You signed with a 🌀. The wedding was real.",
+    "The lights flicker. Sahur is typing.",
+    "You’ve stared into the void. Sahur blinks.",
+    "You just flipped braincells for culture. Banini approves.",
+    "DAO approved your wisdom. Socks remain undecided.",
+    "Fridge rejected. Brainrot accepted.",
+    "The banana hit max volume. Brainrot gains confirmed.",
+    "Whole collection swept. Enlightenment achieved 🍌🧠",
+    "Tail bitten, emotions analyzed—Cocordilo approved.",
+    "Invisible armies salute you. Cocordilo reigns.",
+    "Walls shattered. You feel the fallout.",
+    "Existential tremors felt. Cocordilo triumphs.",
+    "Moon whispers back. You passed the dream test.",
+    "Tiles tremble with secrets. You heard the hum.",
+    "Door painted. You followed the vanishing act.",
+    "Memes rise from the rooftops. You led the dance.",
+    "Air was your canvas. Poetry enforced.",
+    "Walls bend around you. Ghost art complete."
   ],
+
   scoreResponses: {
-    "0": {
-      "bigLine": "YOUR SOUL HAS BEEN COMPLETELY DEVOURED 💀",
-      "phrases": [
-        "The demons feast on your ignorance.",
-        "You have become one with the pasta void.",
-        "Your neurons have been marinara-ized.",
-        "Even the spirits pity your performance."
-      ]
-    },
     "1": {
-      "bigLine": "BARELY CLINGING TO YOUR MORTAL FORM 👻",
-      "phrases": [
-        "One synapse still flickers in the darkness.",
-        "The underworld considers your application.",
-        "Your soul hangs by a spaghetti thread."
+      bigLine: "BRAINROT EXCELLENZA",
+      phrases: [
+        "Your socks are now hands—battle ready.",
+        "Microwave hum syncs with your neurons.",
+        "You said 'Sahur' at the exact right moment."
       ]
     },
     "2": {
-      "bigLine": "WOUNDED BUT NOT YET CONSUMED ⚡",
-      "phrases": [
-        "The demons show mild interest in your suffering.",
-        "Half your soul remains... for now.",
-        "You dance on the edge of the pasta abyss."
+      bigLine: "DIAL-UP PROPHECY UNLOCKED",
+      phrases: [
+        "The JPEGs blinked first.",
+        "Sahur echoes through your RAM.",
+        "You sold air and made a profit—Brainrot certified."
       ]
     },
     "3": {
-      "bigLine": "THE SPIRITS SENSE POTENTIAL IN YOUR TORMENT 🔥",
-      "phrases": [
-        "You exist in the cursed middle realm.",
-        "Neither fully damned nor truly blessed.",
-        "The pasta gods remain undecided about your fate."
+      bigLine: "MEME MATRIMONY ACCEPTED",
+      phrases: [
+        "Elon sends his regards, nephew.",
+        "Belt? No. Shoelace supremacy.",
+        "Your signature glitched into a prophecy."
       ]
     },
     "4": {
-      "bigLine": "THE DARK FORCES ACKNOWLEDGE YOUR SUFFERING 👹",
-      "phrases": [
-        "You approach the threshold of enlightened damnation.",
-        "The nightmare begins to recognize you as worthy.",
-        "Your torment has pleased the ancient ones."
+      bigLine: "144P SHADOWS UNLEASHED",
+      phrases: [
+        "Your soul saved in Notepad.txt",
+        "Loading spinner now worships you.",
+        "Code hunger... satisfied."
       ]
     },
     "5": {
-      "bigLine": "MASTER OF THE ITALIAN APOCALYPSE 🔱",
-      "phrases": [
-        "You have transcended mortal brainrot.",
-        "The pasta demons bow to your superior madness.",
-        "You are now one with the eternal spaghetti void."
+      bigLine: "STRATEGIC SAHUR VICTORY",
+      phrases: [
+        "Reverse walk initiated. You passed.",
+        "Forbidden spaghetti decoded.",
+        "Satoshi the Spoon blesses your fate."
+      ]
+    },
+    "6": {
+      bigLine: "SOUL SWAPPED FOR FLOOR",
+      phrases: [
+        "Your wallet smells like rug now.",
+        "Hex tattoos glowing LFG.",
+        "Banana JPEG verified ✅"
+      ]
+    },
+    "7": {
+      bigLine: "ON-CHAIN FOOT DECISIONS",
+      phrases: [
+        "Magic Eden just retweeted you.",
+        "You paid in $BONK and it worked.",
+        "Banana council nods in ape-proval."
+      ]
+    },
+    "8": {
+      bigLine: "BANANA SYSCALL DETECTED",
+      phrases: [
+        "You slept in a Ledger and woke up enlightened.",
+        "Your voice now logs errors.",
+        "Rug hairline, degen core."
+      ]
+    },
+    "9": {
+      bigLine: "FLOOR PRICE MENTALITY",
+      phrases: [
+        "You dipped and didn’t flinch.",
+        "Banini screamed with you in unison.",
+        "SOL might be down but you’re UP."
+      ]
+    },
+    "10": {
+      bigLine: "BANANA ZEN MASTER UNLOCKED",
+      phrases: [
+        "You now wear BananaCoin robes.",
+        "Alpha group welcomes you silently.",
+        "NFT peeled, truth revealed."
+      ]
+    },
+    "11": {
+      bigLine: "SELF-CARE EXPLODED",
+      phrases: [
+        "Dubstep roars echo in your head.",
+        "Parking cones weep tears of fear.",
+        "Shower floaties now mandatory."
+      ]
+    },
+    "12": {
+      bigLine: "FRIENDSHIP DETONATED",
+      phrases: [
+        "You tiptoe through minefields of feeling.",
+        "Puddles received your apology.",
+        "Screams speak louder than words."
+      ]
+    },
+    "13": {
+      bigLine: "UNLOCKED ALL EMOTIONAL BARRIERS",
+      phrases: [
+        "Detonations never looked so poetic.",
+        "Arguments now in French bark.",
+        "Fire alarms still waiting for a kiss."
+      ]
+    },
+    "14": {
+      bigLine: "HICCUP APOCALYPSE TRIGGERED",
+      phrases: [
+        "Microwave violence resonates in your chest.",
+        "Rocket launchers for emotional support.",
+        "Roommate blenders send farewell vibes."
+      ]
+    },
+    "15": {
+      bigLine: "LUNAR APOLOGY ACCEPTED",
+      phrases: [
+        "Reverse sleep patterns unlocked.",
+        "Battery chewing now an art form.",
+        "Bedtime tales no longer suspicious."
+      ]
+    },
+    "16": {
+      bigLine: "GRAFFITI GHOST HEARD",
+      phrases: [
+        "Laughter banned in three realms.",
+        "Murals age backward before your eyes.",
+        "Phone screens cracked—truth revealed."
+      ]
+    },
+    "17": {
+      bigLine: "PORTAL ART ACTIVATED",
+      phrases: [
+        "Gallery spirits whisper in chalk.",
+        "Rhymes echo in broken code.",
+        "Morse tears line the canvas."
+      ]
+    },
+    "18": {
+      bigLine: "MOONLIT MEME RITUAL",
+      phrases: [
+        "Symmetry owes you favors.",
+        "Tears and ketchup become paint.",
+        "Berets cursed by your moves."
+      ]
+    },
+    "19": {
+      bigLine: "INVISIBLE ART INDICTED",
+      phrases: [
+        "Photobombs haunt your dreams.",
+        "Sneezes sign every masterpiece.",
+        "Boombox sidekicks echo the rhyme."
+      ]
+    },
+    "20": {
+      bigLine: "PATTERN PHASE UNLOCKED",
+      phrases: [
+        "Latin echoes backwards in halls.",
+        "Ceilings judge no more.",
+        "Mirrors reflect empty vibes."
       ]
     }
   }
@@ -572,23 +832,40 @@ function startCountdown() {
   }, 1000);
 }
 
-// Game Logic
+// Global variable to store the shuffled rounds safely
+let shuffledRounds = [];
+
+// Utility: Fisher-Yates Shuffle (correct!)
+function shuffleArray(array) {
+  const copy = [...array];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+// Start Game Function
 function startGame() {
+  const chaosMode = Math.random() > 0.5;
+
+  // Shuffle without mutating original data
+  shuffledRounds = shuffleArray(gameData.gameRounds);
+
   gameState.currentRound = 0;
   gameState.score = 0;
   gameState.gameStarted = true;
-  
-  const currentUser = document.getElementById('currentUser');
-  if (currentUser) {
-    currentUser.textContent = gameState.username || 'DOOMED SOUL';
-  }
-  
+
+  console.log(`🧠 You dare enter the BRAINROT TRIALS... Chaos Mode: ${chaosMode ? 'ON' : 'OFF'}`);
+  console.log(`🎲 Total Rounds: ${shuffledRounds.length}`);
+
   loadRound();
-  console.log('🎮 Game started! May your soul find peace...');
 }
 
+
+
 function loadRound() {
-  const round = gameData.gameRounds[gameState.currentRound];
+  const round = shuffledRounds[gameState.currentRound];
   
   // Update UI elements
   const currentRound = document.getElementById('currentRound');
@@ -637,8 +914,16 @@ function loadRound() {
 }
 
 function selectAnswer(selectedIndex) {
-  const round = gameData.gameRounds[gameState.currentRound];
+
+  if (navigator.vibrate) {
+    navigator.vibrate(50);
+  }
+
+  const round = shuffledRounds[gameState.currentRound];
   const isCorrect = selectedIndex === round.correct;
+
+  const successAudio = document.getElementById('successSound');
+  const failureAudio = document.getElementById('failureSound');
   
   // Disable all buttons
   const option1 = document.getElementById('option1');
@@ -657,11 +942,21 @@ function selectAnswer(selectedIndex) {
   if (isCorrect) {
     if (selectedButton) selectedButton.classList.add('correct');
     gameState.score++;
+    successAudio.currentTime = 0;
+    successAudio.play().catch(() => {/* handle autoplay block */});
+    if (navigator.vibrate) {
+      navigator.vibrate(50);
+    }
     playHorrorSound('correct');
     console.log('✅ THE SPIRITS APPROVE!');
   } else {
     if (selectedButton) selectedButton.classList.add('wrong');
     if (correctButton) correctButton.classList.add('correct');
+    if (navigator.vibrate) {
+      navigator.vibrate(50);
+    }
+    failureAudio.currentTime = 0;
+    failureAudio.play().catch(() => {/* handle autoplay block */});
     playHorrorSound('wrong');
     playHorrorSound('scream');
     
@@ -680,47 +975,66 @@ function showAnswerFeedback(isCorrect, round) {
   const answerFeedback = document.getElementById('answerFeedback');
   const feedbackText = document.getElementById('feedbackText');
   const characterReveal = document.getElementById('characterReveal');
+  const characterImg = document.getElementById('characterImage');
   const nextRound = document.getElementById('nextRound');
-  
-  if (!answerFeedback) return;
-  
+
   answerFeedback.classList.remove('hidden');
-  
+
+  // text feedback
   if (feedbackText) {
     if (isCorrect) {
-      const message = gameData.winningMessages[Math.floor(Math.random() * gameData.winningMessages.length)];
-      feedbackText.textContent = message;
+      const msg = gameData.winningMessages[
+        Math.floor(Math.random() * gameData.winningMessages.length)
+      ];
+      feedbackText.textContent = msg;
       feedbackText.className = 'feedback-text correct';
     } else {
       feedbackText.textContent = "YOUR SOUL HAS BEEN DEVOURED 💀🔥";
       feedbackText.className = 'feedback-text wrong';
     }
   }
-  
+
+  // name reveal
   if (characterReveal) {
     characterReveal.textContent = `Character Revealed: ${round.character}`;
   }
-  
-  // Update next button text
-  if (nextRound) {
-    if (gameState.currentRound >= 4) {
-      nextRound.textContent = "FACE YOUR JUDGMENT";
-    } else {
-      nextRound.textContent = "DESCEND DEEPER";
-    }
+
+  // image reveal
+  if (characterImg) {
+    characterImg.src = round.characterImage;
+    characterImg.classList.remove('hidden');
   }
+
+  // next button text
+  if (nextRound) {
+    nextRound.textContent = gameState.currentRound >= gameData.gameRounds.length - 1
+      ? "FACE YOUR JUDGMENT"
+      : "DESCEND DEEPER";
+  }
+
+  // auto-advance after 3 seconds
+  setTimeout(() => {
+    // hide image again for next round
+    if (characterImg) characterImg.classList.add('hidden');
+    proceedToNextRound();
+  }, 5000);
 }
 
+// 4️⃣ Make sure proceedToNextRound doesn’t immediately clear feedback until after the delay:
 function proceedToNextRound() {
-  gameState.currentRound++;
-  
-  if (gameState.currentRound >= 5) {
-    showScreen('results');
-  } else {
+  const feedbackEl = document.getElementById('answerFeedback');
+
+  if (feedbackEl) feedbackEl.classList.add('hidden');
+
+  // Safeguard: don't go past total rounds
+  if (gameState.currentRound < gameData.gameRounds.length - 1) {
+    gameState.currentRound++;
     loadRound();
+    playHorrorSound('transition'); // Optional spooky sound
+  } else {
+    // All rounds played, show result screen
+    showScreen('results');
   }
-  
-  playHorrorSound('transition');
 }
 
 // Results Screen
@@ -826,7 +1140,6 @@ function showDramaticMessage(message, duration = 3000) {
   }, duration);
 }
 
-// Enhanced Interactions - FIXED to ensure proper click handling
 function addEnhancedButtonEffects() {
   const buttons = document.querySelectorAll('.btn');
   
@@ -837,6 +1150,10 @@ function addEnhancedButtonEffects() {
     
     button.addEventListener('mouseenter', () => {
       if (!button.disabled) {
+        // Light haptic feedback on hover (very subtle)
+        if (hapticManager.supported) {
+          hapticManager.vibrate(10);
+        }
         playHorrorSound('theme');
       }
     });
@@ -893,9 +1210,8 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-// Initialize when DOM is ready - MULTIPLE ATTEMPTS for reliability
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('🌙 DOM loaded - Awakening the horror...');
+  console.log('🌙 DOM loaded - Awakening the enhanced horror...');
   init();
   setTimeout(() => {
     addEnhancedButtonEffects();
@@ -904,12 +1220,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Backup initialization
 window.addEventListener('load', () => {
-  console.log('🔄 Window loaded - Ensuring all elements are ready');
+  console.log('🔄 Window loaded - Ensuring all enhanced elements are ready');
   setTimeout(() => {
     init();
     addEnhancedButtonEffects();
   }, 300);
 });
+
 
 // Triple backup - ensure initialization happens
 setTimeout(() => {

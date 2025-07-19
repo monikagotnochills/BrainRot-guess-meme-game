@@ -8,12 +8,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap" rel="stylesheet">
+
+<style>
+/* Header Bar Layout */
+.header-bar {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+/* Logo Wrapper - stacked vertically */
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* or flex-start for left alignment */
+}
+
+/* Logo Image - Bigger, no shadows */
+.logo-image {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    background: transparent;
+    mix-blend-mode: lighten;
+    filter: none;
+}
+
+.logo-text {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Nosifer', cursive;
+    margin-top: 6px;
+}
+
+  .character-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border: 3px solid var(--horror-green);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  }
+  .character-image.hidden {
+    display: none;
+  }
+</style>
+
 </head>
 <body>
-    <!-- Theme Toggle -->
+    <!-- Header with Logo and Theme Toggle -->
+    <div class="header-bar">
+    <div class="logo-wrapper">
+        <img src="assets/logo.png" alt="Game Logo" class="logo-image">
+        <span class="logo-text">BRAINROT STUDIOS</span>
+    </div>
     <div class="mode-toggle">
         <button id="themeToggle" class="btn btn--outline btn--sm torch-toggle">🌙</button>
     </div>
+</div>
 
     <!-- Torch System for Light Mode -->
     <div class="torch-system" id="torchSystem">
@@ -59,6 +117,21 @@
                 <h2 class="subtitle">Your neurons will be sacrificed. Enter if you dare.</h2>
                 <p class="spaced-text destruction-text">P R E P A R E  F O R  M E N T A L  D E S T R U C T I O N</p>
             </div>
+
+            <audio id="backgroundMusic" autoplay loop>
+                <source src="assets/murder_drones.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- in your <body>, alongside backgroundMusic -->
+            <audio id="successSound">
+            <source src="assets/correct-6033.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="failureSound">
+            <source src="assets/brass-fail-8-a-207130.mp3" type="audio/mpeg">
+            </audio>
+
+
             
             <div class="button-section">
                 <button id="enterNightmare" class="btn btn--primary btn--lg nightmare-btn">ENTER THE NIGHTMARE</button>
@@ -150,12 +223,16 @@
 
             <!-- Answer Feedback -->
             <div id="answerFeedback" class="answer-feedback hidden">
-                <div class="feedback-container">
-                    <div id="feedbackText" class="feedback-text"></div>
-                    <div id="characterReveal" class="character-reveal"></div>
-                    <button id="nextRound" class="btn btn--primary btn--lg">DESCEND DEEPER</button>
-                </div>
-            </div>
+         <div class="feedback-container">
+           <div id="feedbackText" class="feedback-text"></div>
+       <div id="characterReveal" class="character-reveal"></div>
+           <img id="characterImage" class="character-image hidden" />
+            <button id="nextRound" class="btn btn--primary btn--lg" style="color: white; font-weight: bold;">
+  DESCEND DEEPER
+</button>
+
+         </div>
+       </div>
         </div>
     </div>
 
@@ -184,5 +261,22 @@
     </div>
 
     <script src="app.js"></script>
+
+    <script>
+        // Wait until DOM is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+            const music = document.getElementById('backgroundMusic');
+            const nightmareBtn = document.getElementById('enterNightmare');
+
+            // Handle autoplay issues (user interaction might be required)
+            window.addEventListener('click', () => {
+                music.play().catch(() => {
+                    // Autoplay might be blocked—can be triggered manually on user interaction
+                    console.log("Music autoplay blocked by browser");
+                });
+            }, { once: true });
+        });
+    </script>
+
 </body>
 </html>

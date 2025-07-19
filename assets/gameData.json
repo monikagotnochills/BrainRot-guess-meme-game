@@ -1,0 +1,382 @@
+[
+  {
+    "gameRound": {
+      "id": 1,
+      "clue": "He once tried to microwave an NFT to mint it faster.",
+      "options": ["Tung Tung Sahur", "Wombo Combo", "Ligma Lantern"],
+      "correct": 0,
+      "character": "🥁"
+    },
+    "characterImage": "",
+    "winningMessage": "NFT burned, but you got the beat. 🥁 You’ve summoned the Sahur spirit.",
+    "scoreResponse": {
+      "bigLine": "BRAINROT EXCELLENZA",
+      "phrases": [
+        "Your socks are now hands—battle ready.",
+        "Microwave hum syncs with your neurons.",
+        "You said 'Sahur' at the exact right moment."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 2,
+      "clue": "His heartbeat sounds like dial-up internet and he uses it to summon crows.",
+      "options": ["Crypto Pigeon", "Mr. Gobbledy", "Tung Tung Sahur"],
+      "correct": 2,
+      "character": "🥁"
+    },
+    "characterImage": "",
+    "winningMessage": "The crows screamed your name. You guessed correctly.",
+    "scoreResponse": {
+      "bigLine": "DIAL-UP PROPHECY UNLOCKED",
+      "phrases": [
+        "The JPEGs blinked first.",
+        "Sahur echoes through your RAM.",
+        "You sold air and made a profit—Brainrot certified."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 3,
+      "clue": "This entity legally married a meme template in 2023 and claims they have 5 children: JPEG, PNG, MP4, WebM, and WEBP.",
+      "options": ["Tung Tung Sahur", "JPEG Jester", "Meme Monk"],
+      "correct": 0,
+      "character": "🥁"
+    },
+    "characterImage": "",
+    "winningMessage": "You signed with a 🌀. The wedding was real.",
+    "scoreResponse": {
+      "bigLine": "MEME MATRIMONY ACCEPTED",
+      "phrases": [
+        "Elon sends his regards, nephew.",
+        "Belt? No. Shoelace supremacy.",
+        "Your signature glitched into a prophecy."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 4,
+      "clue": "He doesn't speak. He just opens Notepad and types 'tralala tralelero' until the power goes out.",
+      "options": ["Alt Tab Baba", "Tung Tung Sahur", "CTRL+Freak"],
+      "correct": 1,
+      "character": "🥁"
+    },
+    "characterImage": "",
+    "winningMessage": "The lights flicker. Sahur is typing.",
+    "scoreResponse": {
+      "bigLine": "144P SHADOWS UNLEASHED",
+      "phrases": [
+        "Your soul saved in Notepad.txt",
+        "Loading spinner now worships you.",
+        "Code hunger... satisfied."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 5,
+      "clue": "He once challenged ChatGPT to a staring contest and lost—but claimed it was a strategic surrender.",
+      "options": ["Broken Compiler", "Tung Tung Sahur", "Sir Lagalot"],
+      "correct": 1,
+      "character": "🥁"
+    },
+    "characterImage": "",
+    "winningMessage": "You’ve stared into the void. Sahur blinks.",
+    "scoreResponse": {
+      "bigLine": "STRATEGIC SAHUR VICTORY",
+      "phrases": [
+        "Reverse walk initiated. You passed.",
+        "Forbidden spaghetti decoded.",
+        "Satoshi the Spoon blesses your fate."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 6,
+      "clue": "He once swapped his soul for a Solana NFT... then flipped it for 0.0001 SOL and said it was 'for the culture'.",
+      "options": ["Ape Donda", "JPEG Pope", "Chimpanzini Banini"],
+      "correct": 2,
+      "character": "🐒"
+    },
+    "characterImage": "",
+    "winningMessage": "You just flipped braincells for culture. Banini approves.",
+    "scoreResponse": {
+      "bigLine": "SOUL SWAPPED FOR FLOOR",
+      "phrases": [
+        "Your wallet smells like rug now.",
+        "Hex tattoos glowing LFG.",
+        "Banana JPEG verified ✅"
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 7,
+      "clue": "He launched a DAO to decide what sock he wears. Still hasn't reached quorum.",
+      "options": ["Monkemon", "Chimpanzini Banini", "Banana DAO CEO"],
+      "correct": 1,
+      "character": "🐒"
+    },
+    "characterImage": "",
+    "winningMessage": "DAO approved your wisdom. Socks remain undecided.",
+    "scoreResponse": {
+      "bigLine": "ON-CHAIN FOOT DECISIONS",
+      "phrases": [
+        "Magic Eden just retweeted you.",
+        "You paid in $BONK and it worked.",
+        "Banana council nods in ape-proval."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 8,
+      "clue": "This dude tried to mint a banana by yelling 'sudo mint 🍌' at his fridge.",
+      "options": ["Ruggy Balboa", "Chimpanzini Banini", "GasFee Goblin"],
+      "correct": 1,
+      "character": "🐒"
+    },
+    "characterImage": "",
+    "winningMessage": "Fridge rejected. Brainrot accepted.",
+    "scoreResponse": {
+      "bigLine": "BANANA SYSCALL DETECTED",
+      "phrases": [
+        "You slept in a Ledger and woke up enlightened.",
+        "Your voice now logs errors.",
+        "Rug hairline, degen core."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 9,
+      "clue": "When the market dipped, he just screamed 'floor it' and threw a banana at his screen.",
+      "options": ["JPEG Monk", "Chimpanzini Banini", "Dipnutz"],
+      "correct": 1,
+      "character": "🐒"
+    },
+    "characterImage": "",
+    "winningMessage": "The banana hit max volume. Brainrot gains confirmed.",
+    "scoreResponse": {
+      "bigLine": "FLOOR PRICE MENTALITY",
+      "phrases": [
+        "You dipped and didn’t flinch.",
+        "Banini screamed with you in unison.",
+        "SOL might be down but you’re UP."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 10,
+      "clue": "Once said 'I meditated and the banana told me to sweep the floor'. Proceeded to buy the whole NFT collection.",
+      "options": ["BananaMancer", "Monk.eth", "Chimpanzini Banini"],
+      "correct": 2,
+      "character": "🐒"
+    },
+    "characterImage": "",
+    "winningMessage": "Whole collection swept. Enlightenment achieved 🍌🧠",
+    "scoreResponse": {
+      "bigLine": "BANANA ZEN MASTER UNLOCKED",
+      "phrases": [
+        "You now wear BananaCoin robes.",
+        "Alpha group welcomes you silently.",
+        "NFT peeled, truth revealed."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 11,
+      "clue": "He once bit his own tail just to see if it was emotionally available.",
+      "options": ["Snapzilla the Therapist", "Bomberdino Cocordilo", "Dr. Tearsaur"],
+      "correct": 1,
+      "character": "🐊"
+    },
+    "characterImage": "",
+    "winningMessage": "Tail bitten, emotions analyzed—Cocordilo approved.",
+    "scoreResponse": {
+      "bigLine": "SELF-CARE EXPLODED",
+      "phrases": [
+        "Dubstep roars echo in your head.",
+        "Parking cones weep tears of fear.",
+        "Shower floaties now mandatory."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 12,
+      "clue": "He started a war over someone stepping on his invisible imaginary friend.",
+      "options": ["Captain Unstable", "Screamo Gator", "Bomberdino Cocordilo"],
+      "correct": 2,
+      "character": "🐊"
+    },
+    "characterImage": "",
+    "winningMessage": "Invisible armies salute you. Cocordilo reigns.",
+    "scoreResponse": {
+      "bigLine": "FRIENDSHIP DETONATED",
+      "phrases": [
+        "You tiptoe through minefields of feeling.",
+        "Puddles received your apology.",
+        "Screams speak louder than words."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 13,
+      "clue": "He doesn’t believe in doors. He just explodes through emotional walls instead.",
+      "options": ["Bomberdino Cocordilo", "Monsieur Kaboom", "Emotional Alligator"],
+      "correct": 0,
+      "character": "🐊"
+    },
+    "characterImage": "",
+    "winningMessage": "Walls shattered. You feel the fallout.",
+    "scoreResponse": {
+      "bigLine": "UNLOCKED ALL EMOTIONAL BARRIERS",
+      "phrases": [
+        "Detonations never looked so poetic.",
+        "Arguments now in French bark.",
+        "Fire alarms still waiting for a kiss."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 14,
+      "clue": "Every time he hiccups, someone in a 5km radius gets a minor existential crisis.",
+      "options": ["Bomberdino Cocordilo", "Blendy Boy", "Hiccupocalypse"],
+      "correct": 0,
+      "character": "🐊"
+    },
+    "characterImage": "",
+    "winningMessage": "Existential tremors felt. Cocordilo triumphs.",
+    "scoreResponse": {
+      "bigLine": "HICCUP APOCALYPSE TRIGGERED",
+      "phrases": [
+        "Microwave violence resonates in your chest.",
+        "Rocket launchers for emotional support.",
+        "Roommate blenders send farewell vibes."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 15,
+      "clue": "His last words before every nap are: ‘If I don’t wake up, tell the moon I’m sorry.’",
+      "options": ["Croco BoomBoom", "Bomberdino Cocordilo", "Napalm Napster"],
+      "correct": 1,
+      "character": "🐊"
+    },
+    "characterImage": "",
+    "winningMessage": "Moon whispers back. You passed the dream test.",
+    "scoreResponse": {
+      "bigLine": "LUNAR APOLOGY ACCEPTED",
+      "phrases": [
+        "Reverse sleep patterns unlocked.",
+        "Battery chewing now an art form.",
+        "Bedtime tales no longer suspicious."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 16,
+      "clue": "He doesn’t talk. He hums cryptic lullabies into bathroom tiles until they confess.",
+      "options": ["Sir Laughsalot", "Tralala Tralelero", "Echo Picasso"],
+      "correct": 1,
+      "character": "🎨"
+    },
+    "characterImage": "",
+    "winningMessage": "Tiles tremble with secrets. You heard the hum.",
+    "scoreResponse": {
+      "bigLine": "GRAFFITI GHOST HEARD",
+      "phrases": [
+        "Laughter banned in three realms.",
+        "Murals age backward before your eyes.",
+        "Phone screens cracked—truth revealed."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 17,
+      "clue": "He once painted a door on a wall and disappeared into it. He’s been on a 'mental vacation' ever since.",
+      "options": ["Doodle Messiah", "Tralala Tralelero", "Exit.exe"],
+      "correct": 1,
+      "character": "🎨"
+    },
+    "characterImage": "",
+    "winningMessage": "Door painted. You followed the vanishing act.",
+    "scoreResponse": {
+      "bigLine": "PORTAL ART ACTIVATED",
+      "phrases": [
+        "Gallery spirits whisper in chalk.",
+        "Rhymes echo in broken code.",
+        "Morse tears line the canvas."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 18,
+      "clue": "Every full moon, he breakdances on rooftops to summon forgotten memes.",
+      "options": ["Rhymenstein", "Tralala Tralelero", "Urban Oracle"],
+      "correct": 1,
+      "character": "🎨"
+    },
+    "characterImage": "",
+    "winningMessage": "Memes rise from the rooftops. You led the dance.",
+    "scoreResponse": {
+      "bigLine": "MOONLIT MEME RITUAL",
+      "phrases": [
+        "Symmetry owes you favors.",
+        "Tears and ketchup become paint.",
+        "Berets cursed by your moves."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 19,
+      "clue": "He once got arrested for spray-painting a love poem on the air.",
+      "options": ["DreamTagger", "Poem Punk", "Tralala Tralelero"],
+      "correct": 2,
+      "character": "🎨"
+    },
+    "characterImage": "",
+    "winningMessage": "Air was your canvas. Poetry enforced.",
+    "scoreResponse": {
+      "bigLine": "INVISIBLE ART INDICTED",
+      "phrases": [
+        "Photobombs haunt your dreams.",
+        "Sneezes sign every masterpiece.",
+        "Boombox sidekicks echo the rhyme."
+      ]
+    }
+  },
+  {
+    "gameRound": {
+      "id": 20,
+      "clue": "He doesn’t enter buildings—he phases through wallpaper patterns like a poetic poltergeist.",
+      "options": ["Haunted Hypebeast", "Tralala Tralelero", "Fresco Fugitivo"],
+      "correct": 1,
+      "character": "🎨"
+    },
+    "characterImage": "",
+    "winningMessage": "Walls bend around you. Ghost art complete.",
+    "scoreResponse": {
+      "bigLine": "PATTERN PHASE UNLOCKED",
+      "phrases": [
+        "Latin echoes backwards in halls.",
+        "Ceilings judge no more.",
+        "Mirrors reflect empty vibes."
+      ]
+    }
+  }
+]
