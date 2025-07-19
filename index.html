@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💀 BRAINROT TRIALS - Italian Horror 💀</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="mode-toggle">
+        <button id="themeToggle" class="btn btn--outline btn--sm torch-toggle">🌙</button>
+    </div>
+
+    <!-- Torch System for Light Mode -->
+    <div class="torch-system" id="torchSystem">
+        <div class="torch" style="top: 15%; left: 10%;"><div class="torch-light torch-light--large"></div></div>
+        <div class="torch" style="top: 20%; left: 85%;"><div class="torch-light torch-light--medium"></div></div>
+        <div class="torch" style="top: 70%; left: 15%;"><div class="torch-light torch-light--medium"></div></div>
+        <div class="torch" style="top: 75%; left: 80%;"><div class="torch-light torch-light--large"></div></div>
+        <div class="torch" style="top: 10%; left: 45%;"><div class="torch-light torch-light--small"></div></div>
+        <div class="torch" style="top: 85%; left: 50%;"><div class="torch-light torch-light--small"></div></div>
+        <div class="cursor-torch" id="cursorTorch"></div>
+    </div>
+
+    <!-- Interactive Floating Characters -->
+    <div class="floating-characters" id="floatingCharacters">
+        <div class="floating-char interactive-char" data-char="🍝">🍝</div>
+        <div class="floating-char interactive-char" data-char="🧀">🧀</div>
+        <div class="floating-char interactive-char" data-char="🍕">🍕</div>
+        <div class="floating-char interactive-char" data-char="🍦">🍦</div>
+        <div class="floating-char interactive-char" data-char="🥟">🥟</div>
+        <div class="floating-char interactive-char" data-char="💀">💀</div>
+        <div class="floating-char interactive-char" data-char="👹">👹</div>
+        <div class="floating-char interactive-char" data-char="🔥">🔥</div>
+        <div class="floating-char interactive-char" data-char="⚡">⚡</div>
+        <div class="floating-char interactive-char" data-char="👻">👻</div>
+        <div class="floating-char interactive-char" data-char="☠️">☠️</div>
+        <div class="floating-char interactive-char" data-char="🌟">🌟</div>
+        <div class="floating-char interactive-char" data-char="🔱">🔱</div>
+        <div class="floating-char interactive-char" data-char="⚰️">⚰️</div>
+        <div class="floating-char interactive-char" data-char="🕷️">🕷️</div>
+        <div class="floating-char interactive-char" data-char="🦇">🦇</div>
+    </div>
+
+    <!-- Screen Flicker Effect -->
+    <div class="screen-flicker" id="screenFlicker"></div>
+    <div class="blood-drip-overlay" id="bloodDripOverlay"></div>
+
+    <!-- Landing Page -->
+    <div id="landingPage" class="screen active">
+        <div class="container landing-content">
+            <div class="title-section">
+                <p class="presented-by">PRESENTED BY BRAINROT STUDIOS</p>
+                <h1 class="main-title horror-title">💀 BRAINROT TRIALS - ITALIAN HORROR 💀</h1>
+                <h2 class="subtitle">Your neurons will be sacrificed. Enter if you dare.</h2>
+                <p class="spaced-text destruction-text">P R E P A R E  F O R  M E N T A L  D E S T R U C T I O N</p>
+            </div>
+            
+            <div class="button-section">
+                <button id="enterNightmare" class="btn btn--primary btn--lg nightmare-btn">ENTER THE NIGHTMARE</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Username Entry Screen -->
+    <div id="usernameScreen" class="screen">
+        <div class="container username-container">
+            <div class="card username-card horror-card">
+                <div class="card__body">
+                    <h2 class="horror-title">CHOOSE YOUR DOOMED IDENTITY</h2>
+                    <div class="form-group">
+                        <input type="text" id="usernameInput" class="form-control horror-input" 
+                               placeholder="Choose your doomed identity..." maxlength="15" minlength="3">
+                        <div class="validation-warning" id="validationWarning"></div>
+                    </div>
+                    <div class="button-section">
+                        <button id="sealFate" class="btn btn--primary btn--full-width fate-btn">SEAL MY FATE</button>
+                        <button id="backToLanding" class="btn btn--outline btn--full-width">BACK TO SAFETY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard Screen -->
+    <div id="dashboardScreen" class="screen">
+        <div class="container dashboard-container">
+            <div class="dashboard-content">
+                <h2 class="welcome-doom" id="welcomeDoom">Welcome to your doom, MORTAL</h2>
+                <div class="user-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Souls Consumed</span>
+                        <span class="stat-value">∞</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Nightmares Survived</span>
+                        <span class="stat-value">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Sanity Remaining</span>
+                        <span class="stat-value">???</span>
+                    </div>
+                </div>
+                
+                <div class="countdown-section">
+                    <h3 class="ready-chaos">Ready to enter chaos?</h3>
+                    <div class="countdown-timer" id="countdownTimer">3</div>
+                </div>
+                
+                <div class="button-section">
+                    <button id="enterChaos" class="btn btn--primary btn--lg chaos-btn">ENTER THE CHAOS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" class="screen">
+        <div class="container game-container">
+            <div class="game-header">
+                <div class="descent-indicator">
+                    <span class="descent-text">DESCENT INTO MADNESS</span>
+                    <span class="level-text">LEVEL <span id="currentRound">1</span>/5</span>
+                </div>
+                <div class="user-info">
+                    <span id="currentUser">DOOMED SOUL</span>
+                </div>
+            </div>
+
+            <div class="game-content">
+                <div class="character-preview horror-preview">
+                    <div id="hiddenCharacter" class="hidden-char">❓</div>
+                    <div class="preview-glow"></div>
+                </div>
+                
+                <div class="clue-section">
+                    <h3 id="gameClue" class="horror-clue">Loading nightmares...</h3>
+                </div>
+                
+                <div class="options-section">
+                    <button id="option1" class="btn btn--outline option-btn horror-option">Option 1</button>
+                    <button id="option2" class="btn btn--outline option-btn horror-option">Option 2</button>
+                    <button id="option3" class="btn btn--outline option-btn horror-option">Option 3</button>
+                </div>
+            </div>
+
+            <!-- Answer Feedback -->
+            <div id="answerFeedback" class="answer-feedback hidden">
+                <div class="feedback-container">
+                    <div id="feedbackText" class="feedback-text"></div>
+                    <div id="characterReveal" class="character-reveal"></div>
+                    <button id="nextRound" class="btn btn--primary btn--lg">DESCEND DEEPER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="screen">
+        <div class="container results-container">
+            <div class="results-content">
+                <h2 class="results-title horror-title">JUDGMENT OF THE DAMNED</h2>
+                <div class="score-display">
+                    <span class="score-label">SOULS HARVESTED:</span>
+                    <span id="finalScore" class="final-score">0</span>/5
+                </div>
+                <div class="big-verdict">
+                    <h3 id="bigLine" class="verdict-text">Loading your eternal fate...</h3>
+                </div>
+                <div class="random-phrases">
+                    <p id="randomPhrase" class="fate-phrase">Calculating torment...</p>
+                </div>
+                
+                <div class="results-actions">
+                    <button id="playAgain" class="btn btn--primary btn--lg">FACE THE NIGHTMARE AGAIN</button>
+                    <button id="shareTwitter" class="btn btn--secondary btn--lg">SHARE YOUR TORMENT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
